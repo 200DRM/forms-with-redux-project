@@ -19,7 +19,9 @@ const BasicInput : FC<BasicInputProps> = ({
   return (
     <div className='basic-input-div'>
       <label>
-        {label}:
+        <div className='basic-input-label-text'>
+          {label}:
+        </div>
         <input
           onChange={onChange}
           value={value} 

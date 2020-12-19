@@ -76,9 +76,11 @@ const Form : FC<FormProps> = ({
         value={commentInput}
         type='text'
       />
-      <button type="submit">
-        {id ? 'Confirm changes' : 'Add rate'}
-      </button>
+      <div className='add-rate-form-div-with-button'>
+        <button type="submit">
+          {id ? 'Confirm changes' : 'Add rate'}
+        </button>
+      </div>
     </form>
   );
 };

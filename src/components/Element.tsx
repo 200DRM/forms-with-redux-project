@@ -30,7 +30,9 @@ const Element : FC<Payload> = ({
         <p>Rate: { rate }</p>
         <p>Komentarz: { comment }</p>
       </div>
-      { formOrButtonElement }
+      <div className='rates-list-element-with-button'>
+        { formOrButtonElement }
+      </div>
     </div>
   )
 };
